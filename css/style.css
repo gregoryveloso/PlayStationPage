@@ -22,6 +22,9 @@
 }
 }
 @media screen and (max-width:572px){
+.carousel-heigth{
+    height: 200px;
+}
 .ps-background{
     background-image: url("../images/ps-plus-md-xs.jpg");
     background-repeat: no-repeat;
