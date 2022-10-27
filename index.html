@@ -144,8 +144,8 @@
 
     <!-- Propaganda PS Plus-->
 
-    <div class="col-xl-12 col-xxl-10 col-xs-12 px-4 py-md-5 py-5 py-sm-0 py-xs-0 ps-background h-100 ">
-    <div class="row align-items-center g-lg-5 py-md-5 py-1 mt-5 xl-container mx-auto">
+    <div class="col-xl-12 col-xxl-10 px-4 py-5 py-md-5 py-xl-1 py-xxl-1 py-sm-0 ps-background h-100 ">
+    <div class="row align-items-center g-lg-5 py-md-5 py-6 mt-xxl-0 mt-xl-0 mt-lg-0 mt-sm-0 mt-5 xl-container mx-auto">
       <div class="col-lg-7 col-md-6 col-sm-6 col-10  pb-md-1 pe-md-5 text-center text-lg-start container">
         <p class="fw-bold col-lg-10 fs-5 mb-5 ">Descubra algo novo para jogar com as mais recentes atualizações do catálogo de jogos, jogos mensais, conteúdo exclusivo, descontos e muito mais.</p>
       </div>
@@ -159,20 +159,39 @@
             <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
             <label for="floatingPassword">Senha</label>
           </div>
-          <button class="w-100 btn btn-lg btn-primary" type="submit">Assinar a PS Plus</button>
+          <button type="button" class="w-100 btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#ModalCadastro" >Assinar a PS Plus</button>
           <hr class="my-4">
           <small class="text-muted">Ao assinar, você concorda com os termos de uso.</small>
         </form>
       </div>
     </div>
     </div>
-
-    <div class="container">
-
-
     <!--Fim PS Plus-->
 
 
+    <!-- Modal cadastro-->
+
+    <div class="modal fade" id="ModalCadastro" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Cadastro realizado</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Bem vindo ao serviço PlayStation® Plus.</p>
+                <p>Enviamos um email para que você possa continuar seu cadastro.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary " data-bs-dismiss="modal">Finalizar</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Fim Modal cadastro-->
+
+    <div class="container">
     <!-- Footer-->
 
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
