@@ -7,3 +7,24 @@
     width: 100px;
     height: 100px;  
 }
+
+.ps-background{
+    background-image: url("../images/ps-plus.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@media screen and (max-width:992px){
+.ps-background{
+    background-image: url("../images/ps-plus-md.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+}
+@media screen and (max-width:572px){
+.ps-background{
+    background-image: url("../images/ps-plus-md-xs.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+}
